@@ -2,16 +2,25 @@ import {useEffect} from "react";
 import {useParams} from "react-router-dom";
 import {useDispatch, useSelector} from "react-redux";
 import Moment from "react-moment";
+import NewsLetter from "../utils/newsletter";
 
 import {Spinner} from "react-bootstrap";
 import {fetchPostById} from "../../store/utils/thunks";
+import {clearPostById} from "../../store/reducers/posts";
 
 const PostComponent = () => {
     const posts = useSelector((state) => state.posts);
     const dispatch = useDispatch();
     let params = useParams();
+
     useEffect(() => {
         dispatch(fetchPostById(params.id));
+    }, []);
+
+    useEffect(() => {
+        return () => {
+            dispatch(clearPostById());
+        };
     }, []);
 
     return (
@@ -46,7 +55,9 @@ const PostComponent = () => {
                     </Spinner>
                 </div>
             ) : null}
+            <NewsLetter />
         </>
     );
 };
+
 export default PostComponent;
