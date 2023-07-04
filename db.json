@@ -219,5 +219,20 @@
       "id": 4
     }
   ],
-  "contact": []
+  "contact": [
+    {
+      "email": "yash280801@gmail.com",
+      "firstname": "YASH",
+      "lastname": "DAYAMA",
+      "message": "thankssss",
+      "id": 1
+    },
+    {
+      "email": "yash280801@gmail.com",
+      "firstname": "YASH",
+      "lastname": "DAYAMA",
+      "message": "hi",
+      "id": 2
+    }
+  ]
 }
