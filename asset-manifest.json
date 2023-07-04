@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/maiYASHhoon/React-DailyNews.git/static/css/main.643d1e7e.css",
+    "main.js": "/maiYASHhoon/React-DailyNews.git/static/js/main.aacdbd3e.js",
+    "index.html": "/maiYASHhoon/React-DailyNews.git/index.html",
+    "main.643d1e7e.css.map": "/maiYASHhoon/React-DailyNews.git/static/css/main.643d1e7e.css.map",
+    "main.aacdbd3e.js.map": "/maiYASHhoon/React-DailyNews.git/static/js/main.aacdbd3e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.643d1e7e.css",
+    "static/js/main.aacdbd3e.js"
+  ]
+}
